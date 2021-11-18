@@ -1,0 +1,126 @@
+ 
+ 
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: rgb(183, 228, 199);
+  background-color: rgb(89, 13, 34);
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+.img{
+  display: block;
+  margin-left: 800px;
+  margin-right: auto ;
+
+}
+
+.img{
+  margin-top: -400px; 
+  width: 20%;
+  height: 20%;
+}
+
+
+
+/* nav section*/ 
+.header-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 77, 109);
+  position: sticky;
+  top: 0;
+  border-bottom: 3px rgb(255, 204, 213);
+  border-bottom-style: solid;
+
+}
+
+.header-link ul{
+
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+
+
+}
+
+.header-link ul li{
+
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+}
+
+.header-link ul li a {
+
+  text-decoration: none;
+  color:rgb(255, 204, 213);
+  padding: 8px 25px;
+  transition: all .5s ease;
+
+}
+.header-link ul li a:hover {
+  color:rgb(128, 15, 47);
+  color:rgb(128, 15, 47);
+  box-shadow: 0 0 10px rgb(128, 15, 47 );
+
+}
+
+#nav-section{
+font-size: 40px;
+background: -webkit-linear-gradient(rgb(241, 99, 17), rgb(253, 90, 90));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height: 1;
+text-shadow: 2px 2px 2px rgb(51, 142, 170);
+}
+
+#nav-section p{
+
+display: flex;
+justify-content:flex-start;
+padding-left: 70px;
+padding-top: 20px;
+
+}
+
+
+#nav-section h1{
+display: flex;
+justify-content:flex-start;
+padding-left: 120px;
+padding-top:20px;
+}
+
+.main-text{
+
+padding-top: 200px;
+line-height: 2;
+
+}
+#about-me{
+
+  color: rgb(251, 196, 171);
+  text-shadow: 2px 2px 4px rgb(255, 0, 110);
+}
+
+#Technologies{
+  color: rgb(251, 196, 171);
+  text-shadow: 2px 2px 4px rgb(255, 0, 110);
+}
+#explication{
+  color: rgb(251, 196, 171);
+  text-shadow: 2px 2px 4px rgb(255, 0, 110);
+}
+
+
+@keyframes example {
+from {background-color: rgb(89, 13, 34);}
+to {background-color: rgb(33, 37, 41);}
+} 
+
